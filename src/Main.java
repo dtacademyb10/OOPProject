@@ -7,6 +7,7 @@ class Main {
 
 
       // Some change
+      //dsndbcds/**/
     System.out.println("******************** DUOTECH BANK ACCOUNT MANAGEMENT APPLICATION ********************");
 		System.out.println("-------------------------------------------------------------------------------------");
 
@@ -26,7 +27,7 @@ class Main {
 
       List<String[]> list = Utility.readFromCSV(name);
       for(int i=1;i<list.size();i++){
-      
+      ///ssd
          if((list.get(i)[2]).equals("Savings")){
            
            Account save= new Savings(list.get(i)[0],list.get(i)[1],list.get(i)[3]);
